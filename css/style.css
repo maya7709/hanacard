@@ -1,0 +1,17 @@
+/* layout */
+#wrap {width: 100%;}
+#header {width: 100%; height: 42px; background-color: #999;}
+#banner {width: 100%; height: 470px; background-color: #333;}
+#contents {}
+#footer {}
+
+/* container */
+.container {width: 1200px; margin: 0 auto; background-color:rgba(0,0, 0, .4);}
+
+/* cont layout */
+#cont1 {width: 100%; height: 940px; background-color: #f5f6f8;}
+#cont2 {width: 100%; height: 555px; background-color: #efefef;}
+
+/* footer layout */
+#footer_notice {width: 100%; height: 71px; background-color: #fff;}
+#footer_info {width: 100%; height: 240px; background-color: #f7f8f9;}
