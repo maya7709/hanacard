@@ -46,11 +46,36 @@
 .ban_right .br_tit .login_btn {position: absolute; right: 60px; top: 55px;}
 .ban_right .br_tit .login_btn ul li {margin-bottom: 1px;}
 .ban_right .br_tit .login_btn ul li a {width: 80px; height: 80px; display: block; text-align: center; font-size: 14px; color: #fff;}
-.ban_right .br_tit .login_btn ul li.lb1 a{background: #db3360 url(../img/ico_login.png) no-repeat center 17px; padding-top: 50px; height: 30px;}
-.ban_right .br_tit .login_btn ul li.lb2 a{background-color: #3c3f44; line-height: 80px;}
+.ban_right .br_tit .login_btn ul li.lb1 a{background: #db3360 url(../img/ico_login.png) no-repeat center 17px; padding-top: 50px; height: 30px; transition: background 0.3s ease;}
+.ban_right .br_tit .login_btn ul li.lb1 a:hover {background-color: #c4204c;}
+.ban_right .br_tit .login_btn ul li.lb2 a{background-color: #3c3f44; line-height: 80px; transition: all 0.3s ease;}
+.ban_right .br_tit .login_btn ul li.lb2 a:hover {background-color: #333;}
 .ban_right .br_btn {height: 50px; background: #00907f; margin-top: 25px;}
 .ban_right .br_btn ul {overflow: hidden;}
 .ban_right .br_btn li {position: relative; float: left; width: 25%; text-align: center; line-height: 50px; font-size: 14px;}
 .ban_right .br_btn li:before {content: ''; width: 1px; height: 14px; background-color: #62bdb1; position: absolute; left: 0; top: 19px;}
 .ban_right .br_btn li:first-child:before {width: 0; height: 0;}
 .ban_right .br_btn li a {color: #fff; font-weight: 500;}
+
+/* cont1 nav */
+#nav {width: 100%; background: #fff; position: absolute; left: 0; top: -50px; font-family: 'HanaB'; padding: 30px 0;}
+#nav .gnb {padding-left: 60px;}
+#nav .gnb li {display: inline; padding: 10PX;}
+#nav .gnb li a {font-size: 17px; padding: 10PX 16px; display: inlile-block; transition: all 0.3s ease;}
+#nav .gnb li a:hover {background-color: #00907f; color: #fff; border-radius: 3px;}
+#nav .gnb_right {position: absolute; right: 50px; top: 20px; overflow: hidden;}
+#nav .gnb_right li {float: left; margin-right: 10px;}
+#nav .gnb_right li a{display: block; padding: 11px 20px; font-size: 14px;}
+#nav .gnb_right li.gr1 a {border: 1px solid #e1e1e1; border-radius: 3px; transition: all 0.3s ease;}
+#nav .gnb_right li.gr1 a:hover {background-color: #f4f4f4; color: #000;}
+#nav .gnb_right li.gr2 a {border: 1px solid #404b57; border-radius: 3px; background-color: #404b57; color: #fff;}
+#nav .gnb_right li.gr2 a:hover {background-color: #000; transition: all 0.3s ease;}
+#nav .gnb_search {position: absolute; right: 290px; top: 20px; background: url(../img/gnb_search.png) no-repeat; display: block; width: 50px; height: 50px;}
+#nav .gnb_event {position: absolute; left: 20px; top: -30px; width: 100px; height: 30px; background-color: #000; color: #fff; text-transform: uppercase; line-height: 30px; font-size: 14px;}
+/* cont1 card */
+#card {}
+
+/* cont1 event */
+#event {}
+
+    
