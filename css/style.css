@@ -71,7 +71,9 @@
 #nav .gnb_right li.gr2 a {border: 1px solid #404b57; border-radius: 3px; background-color: #404b57; color: #fff;}
 #nav .gnb_right li.gr2 a:hover {background-color: #000; transition: all 0.3s ease;}
 #nav .gnb_search {position: absolute; right: 290px; top: 20px; background: url(../img/gnb_search.png) no-repeat; display: block; width: 50px; height: 50px;}
-#nav .gnb_event {position: absolute; left: 20px; top: -30px; width: 100px; height: 30px; background-color: #000; color: #fff; text-transform: uppercase; line-height: 30px; font-size: 14px;}
+#nav .gnb_right li.gr2 a i {padding-left: 5px;}
+#nav .gnb_event {position: absolute; left: 20px; top: -35px; background-color: #3c3f44; color: #fff; text-transform: uppercase; line-height: 30px; font-size: 14px; padding: 3px 23px 2px 23px;}
+#nav .gnb_event i {padding-left: 10px; font-weight: 100;}
 /* cont1 card */
 #card {}
 
