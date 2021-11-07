@@ -30,8 +30,7 @@
 .header .list1 li.green a {background: #00907f; color: #fff; margin: 7px 0; border-radius: 3px;}
 .header .list1 li a {color: #333;}
 .header .list2 {float: right; overflow: hidden;}
-.header .list2 li {float: left;}
-.header .list2 li:last-child a{padding-right: 0;}
+.header .list2 li {float: left;}x
 .header .list2 li.log {margin-right: 13px; background: none;}
 .header .list2 li.log a {border: 1px solid #ccc; border-radius: 3px; padding: 3px 10px; margin: 11px 0;}
 .header .list2 li a {color: #797979;}
@@ -58,7 +57,7 @@
 .ban_right .br_btn li a {color: #fff; font-weight: 500;}
 
 /* cont1 nav */
-#nav {width: 100%; background: #fff; position: absolute; left: 0; top: -50px; font-family: 'HanaB'; padding: 30px 0;}
+#nav {width: 100%; background: #fff; position: absolute; left: 0; top: -50px; font-family: 'HanaB'; padding: 30px 0; border-bottom: 1px solid #e6e6e6;}
 #nav .gnb {padding-left: 60px;}
 #nav .gnb li {display: inline; padding: 10PX;}
 #nav .gnb li a {font-size: 17px; padding: 10PX 16px; display: inlile-block; transition: all 0.3s ease;}
@@ -74,8 +73,41 @@
 #nav .gnb_right li.gr2 a i {padding-left: 5px;}
 #nav .gnb_event {position: absolute; left: 20px; top: -35px; background-color: #3c3f44; color: #fff; text-transform: uppercase; line-height: 30px; font-size: 14px; padding: 3px 23px 2px 23px;}
 #nav .gnb_event i {padding-left: 10px; font-weight: 100;}
+
 /* cont1 card */
-#card {}
+#card {overflow: hidden; padding-top: 40px;}
+#card .card_img {float: left; width: 50%; height: 285px; background-color: #fff;}
+#card .card_desc {float: left; width: 50%; height: 285px; background-color: #eaedef;}
+
+/* cont1 card card_img */
+.card_img {padding: 18px 47px 0; box-sizing: border-box;}
+.card_img h4 {font-size: 18px; color: #000; font-weight: 500; padding-bottom: 11px;}
+.card_img .card_banner {margin-bottom: 30px;}
+.card_img .card_banner ul {overflow: hidden;}
+.card_img .card_banner li {float: left; width: 146px; margin-left: 30px; text-align: center;}
+.card_img .card_banner li:first-child {margin-left: 0;}
+.card_img .card_banner li a img {width: 100%;}
+.card_img .card_banner li a em{font-size: 14px; padding-top: 8px; display: block;}
+.card_img .card_link {}
+.card_img .card_link ul {overflow: hidden;}
+.card_img .card_link li {float: left; margin-left: 10px;}
+.card_img .card_link li:first-child {margin-left: 0;}
+.card_img .card_link li a {border: 1px solid #e8e8e8; border-radius: 3px; padding: 10px 11px; display: block; font-size: 15px; text-align: center; box-sizing: border-box; transition: all 0.3s ease;}
+.card_img .card_link li a:hover {border-color: #bbb; color: #000;}
+.ie8 .card_img .card_link li a {padding: 10px 8px;}
+
+/* cont1 cord card_desc */
+.card_desc {padding: 50px 30px 0; box-sizing: border-box; text-align: center;}
+.card_desc dl {}
+.card_desc dt {font-size: 15px; color: #777; font-weight: 500;}
+.card_desc dd.cd1 {margin: 26px 0 45px 0; font-size: 23px; color: #000;}
+.card_desc dd.cd1:before {content: '"'; color: #00907f;}
+.card_desc dd.cd1:after {content: '"'; color: #00907f;}
+.card_desc dd.cd2 {}
+.card_desc dd.cd2 ul {}
+.card_desc dd.cd2 ul li {display: inline; margin: 0 1px;}
+.card_desc dd.cd2 ul li a {background: #fff; padding: 8px 30px; display: inline-block; border: solid 1px #fff; border-radius: 3px; font-size: 15px; transition: all 0.3s ease;}
+.card_desc dd.cd2 ul li a:hover {border-color: #bbb; color: #000;} 
 
 /* cont1 event */
 #event {}
